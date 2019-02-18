@@ -1,5 +1,6 @@
 #!/bin/bash
 DISPLAYNAME=""
+## Transform DISPLAYNAME to PRINTERNAME 
 PRINTERNAME=$(echo ${DISPLAYNAME// /_})
 LOCATION=""
 DRIVER=""
